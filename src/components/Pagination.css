@@ -1,0 +1,36 @@
+.pagination {
+}
+.btn {
+  border: 1px solid #087f5b;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  color: #087f5b;
+}
+.page-link:link,
+.page-link:visited {
+  font-size: 18px;
+  color: #343a40;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.page-link:hover,
+.page-link:active {
+  background-color: #087f5b;
+  color: #fff;
+}
+.dots {
+}
+.btn:hover{
+  background-color:#087f5b;
+}
